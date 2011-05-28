@@ -8,7 +8,7 @@ DTrace allows unprecedented view across all layers of Smalltalk software. With D
 
 Please check out the accompanying blog post for instructions to build your own DTrace-instrumented VM:
 
-    http://www.adrian-lienhard.ch/blog?dialog=smalltak-meets-dtrace
+[http://www.adrian-lienhard.ch/blog?dialog=smalltak-meets-dtrace](http://www.adrian-lienhard.ch/blog?dialog=smalltak-meets-dtrace)
 
 There's also a pre-compiled VM for OS X.
 
