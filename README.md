@@ -15,3 +15,14 @@ There's also a pre-compiled VM for OS X.
 # Usage
 
 The above linked post provides detailed introductions with examples.
+
+# Build from source
+
+Depending on your platform you have to create your own squeak_provider.h file
+and compile the patched Squeak/Pharo VM.
+
+To generate the squeak_provider.h file run:
+
+  dtrace -h -s squeak_provider.d
+
+Then copy the generated squeak_provider.h file to ../platforms/unix/src/vm/
